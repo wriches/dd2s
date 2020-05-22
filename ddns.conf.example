@@ -1,0 +1,11 @@
+ip_check_servers:
+    - https://domains.google.com/checkip
+    - http://ipinfo.io/ip
+    - http://api.ipify.org
+server: https://example.com/dyndns
+username: user
+password: pass
+hostnames:
+    - my.example.com
+    - server.example.com
+    - host.example.com
