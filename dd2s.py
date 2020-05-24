@@ -7,11 +7,11 @@ import time
 
 LOGGING_FORMAT = '%(asctime)s - %(message)s'
 logging.getLogger("requests").setLevel(logging.WARNING)
-logging.basicConfig(format=LOGGING_FORMAT, filename='ddns.log', level=logging.DEBUG)
+logging.basicConfig(format=LOGGING_FORMAT, filename='dd2s.log', level=logging.DEBUG)
 
 old_ip = None
 
-with open('ddns.conf', 'r') as f:
+with open('dd2s.conf', 'r') as f:
 	conf = yaml.safe_load(f)
 
 while True:

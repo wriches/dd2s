@@ -1,4 +1,4 @@
-# dyndns2-simple
+# dd2s
 
 Simple Dynamic DNS client for updating hostnames on `dyndns2` servers.
 
@@ -15,5 +15,5 @@ I needed a simpler solution than `ddclient` that would support `dyndns2` servers
 ## Instructions
 
  1. Prerequisite: Python 3.
- 2. Copy `ddns.conf.example` to `ddns.conf` and edit.
- 3. Run `python3 ./dyndns2-simple.py`
+ 2. Copy `dd2s.conf.example` to `dd2s.conf` and edit.
+ 3. Run `python3 ./dd2s.py`
