@@ -61,5 +61,8 @@ $ sudo systemctl status dd2s
 
 Example output:
 ```
-
+May 24 03:03:25 [localhost] systemd: Started Simple Dynamic DNS client.
+May 24 03:03:26 [localhost] dd2s: DEBUG - Updating IP for host my.example.com: good 123.45.67.89
+May 24 03:03:26 [localhost] dd2s: DEBUG - Updating IP for host server.example.com: good 123.45.67.89
+May 24 03:03:27 [localhost] dd2s: DEBUG - Updating IP for host host.example.com: good 123.45.67.89
 ```
