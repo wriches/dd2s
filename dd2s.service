@@ -1,0 +1,14 @@
+[Unit]
+Description=Simple Dynamic DNS client
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/usr/local/lib/dd2s/dd2s
+Environment=PYTHONUNBUFFERED=1
+Restart=on-failure
+User=dd2s
+Type=simple
+
+[Install]
+WantedBy=default.target
